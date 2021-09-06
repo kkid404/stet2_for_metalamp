@@ -1,0 +1,20 @@
+{
+  "name": "site_metalamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel wathc src/index.pug --open",
+    "build": "parcel build src/index.pug -d docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.39.0"
+  },
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
