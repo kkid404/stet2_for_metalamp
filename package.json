@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel wathc src/index.pug --open",
+    "start": "parcel src/uk_kit/pug/index.pug watch --open",
     "build": "parcel build src/index.pug -d docs --public-url ./"
   },
   "keywords": [],
@@ -12,9 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.39.0"
-  },
-  "dependencies": {
-    "pug": "^3.0.2"
   }
 }
