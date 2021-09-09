@@ -1,0 +1,15 @@
+mixin link(href, name, i)
+    
+    //- attributes == {class: "link-btn"}
+    a(class!= attributes.class href= href)= name
+
+
+header
+    nav.header__menu
+        +link('#', 'О нас')(class='menu__btn activy')
+        +link('#', 'Услуги')(class='menu__btn')
+        +link('#', 'Вакансии')(class='menu__btn')
+        +link('#', 'Новости')(class='menu__btn')
+        +link('#', 'Соглашения')(class='menu__btn')
+        +link('#', 'Войти')(class='auth__btn btn__sing')
+        +link('#', 'Зарегестрироваться')(class='auth__btn btn__registry')
